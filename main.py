@@ -1,6 +1,6 @@
 import random
 import string
-letters = list(string.ascii_letters)
+letters = list(string.printable)
 print("Enter the password lenght")
 passwordLenght = int(input())
 random.shuffle(letters)
